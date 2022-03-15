@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    }
+
+body{
+    background: #E5E5E5;
+}
+
+span{
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+    display: block;
+}
+
+header{
+    background: #00669F;
+    width: 100%;
+    height: 101px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.267);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.texto{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+#btn1, #btn2{
+    width: 100px;
+    height: 40px;
+    color:white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#00669F ;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn1:hover, #btn2:hover{
+    background-color: #1CD1B0;
+}
+
+
+.card1, .card2{
+    flex-direction: row;
+    background-color:#F3F3F3;
+    width: 500px;
+    height: 700px;
+    margin-top: 50px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    text-align: center;
+    box-shadow:0px 10px 10px rgba(0, 0, 0, 0.404);
+}
+
+#img-fundo-batman{
+    width: 500px;
+}
+
+#batman{
+    width: 135px;
+    height: 150px;
+    border-radius: 50%;
+    position:relative;
+    bottom: 70px;
+}
+#img-fundo-arlequina{
+    width: 500px;
+}
+
+#arlequina{
+    width: 140px;
+    height: 150px;
+    border-radius: 50%;
+    position:relative;
+    bottom: 70px;
+}
+
+.coração{
+    position:relative;
+    bottom: 380px;
+    right: 250px;
+    height: 40px;
+    
+}
+  
+footer{
+    background: #00669F;
+    color: white;
+    margin-top: 100px;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 15px;
+
+}
